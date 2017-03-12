@@ -6,4 +6,73 @@
     android:layout_height="match_parent"
     tools:context="com.example.windos.photoshopkiosk.EventsActivity">
 
+    <ImageButton
+        android:id="@+id/desertBtn"
+        android:layout_width="184dp"
+        android:layout_height="139dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/desert_safari"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="63dp"
+        app:layout_constraintLeft_toRightOf="@+id/dolphinBtn"
+        android:layout_marginLeft="49dp" />
+
+    <ImageButton
+        android:id="@+id/quadBtn"
+        android:layout_width="184dp"
+        android:layout_height="139dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/quad_bikes"
+        app:layout_constraintLeft_toRightOf="@+id/desertBtn"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="63dp" />
+
+    <ImageButton
+        android:id="@+id/dolphinBtn"
+        android:layout_width="184dp"
+        android:layout_height="139dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/dolphin"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="63dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/desertTxt"
+        android:layout_width="184dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="483dp"
+        android:layout_marginTop="228dp"
+        android:text="Quad Bikes"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="183dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="228dp"
+        android:text="Desert Safari"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="228dp"
+        android:text="Dolphin Event"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
