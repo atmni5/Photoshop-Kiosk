@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Windos\AndroidStudioProjects\PhotoshopKiosk\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d9733c72860fa15eaeb48b053a462f0833c8bc1c">
+        <dex dex="C:\Users\Windos\AndroidStudioProjects\PhotoshopKiosk\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8ed1b27ea501d7c28e9998feaaf7656015680666\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Windos\AndroidStudioProjects\PhotoshopKiosk\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Windos\AndroidStudioProjects\PhotoshopKiosk\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b20b74cc6490b1521955d48a22fc39c3fdbbbd73\classes.dex" />
+    </item>
+
+</items>
