@@ -6,4 +6,24 @@
     android:layout_height="match_parent"
     tools:context="com.example.windos.photoshopkiosk.YearActivity">
 
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="62dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/monthContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="278dp"
+        android:layout_marginTop="29dp"
+        android:elevation="0dp"
+        android:onClick="dateSet"
+        android:text="Continue"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datePicker" />
 </android.support.constraint.ConstraintLayout>

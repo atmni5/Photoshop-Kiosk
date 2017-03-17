@@ -10,23 +10,25 @@
         android:id="@+id/desertBtn"
         android:layout_width="184dp"
         android:layout_height="139dp"
-        android:scaleType="centerCrop"
-        app:srcCompat="@drawable/desert_safari"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="49dp"
         android:layout_marginTop="63dp"
+        android:onClick="onEventClick"
+        android:scaleType="centerCrop"
         app:layout_constraintLeft_toRightOf="@+id/dolphinBtn"
-        android:layout_marginLeft="49dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/desert_safari" />
 
     <ImageButton
         android:id="@+id/quadBtn"
         android:layout_width="184dp"
         android:layout_height="139dp"
-        android:scaleType="centerCrop"
-        app:srcCompat="@drawable/quad_bikes"
-        app:layout_constraintLeft_toRightOf="@+id/desertBtn"
         android:layout_marginLeft="50dp"
+        android:layout_marginTop="63dp"
+        android:onClick="onEventClick"
+        android:scaleType="centerCrop"
+        app:layout_constraintLeft_toRightOf="@+id/desertBtn"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="63dp" />
+        app:srcCompat="@drawable/quad_bikes" />
 
     <ImageButton
         android:id="@+id/dolphinBtn"
