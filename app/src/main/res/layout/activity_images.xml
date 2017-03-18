@@ -7,13 +7,44 @@
     tools:context="com.example.windos.photoshopkiosk.ImagesActivity">
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="219dp"
-        android:layout_height="162dp"
+        android:id="@+id/imagePreview2"
+        android:layout_width="184dp"
+        android:layout_height="139dp"
         android:adjustViewBounds="true"
         android:cropToPadding="false"
         android:elevation="0dp"
-        app:srcCompat="@drawable/desert_safari"
+        app:srcCompat="@drawable/no_image_found"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <ImageButton
+        android:id="@+id/imagePreview3"
+        android:layout_width="184dp"
+        android:layout_height="139dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:elevation="0dp"
+        app:srcCompat="@drawable/no_image_found"
+        tools:layout_editor_absoluteX="483dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <ImageButton
+        android:id="@+id/imagePreview1"
+        android:layout_width="184dp"
+        android:layout_height="139dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:elevation="0dp"
+        app:srcCompat="@drawable/no_image_found"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="47dp" />
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:text="page: 1/13"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="16dp" />
 </android.support.constraint.ConstraintLayout>

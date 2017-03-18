@@ -35,6 +35,8 @@ public class ImagesActivity extends AppCompatActivity {
 
         g.setImagePaths(files);
 
+        findViewById(R.id.imagePreview1).
+
         return ;
     }
 }
